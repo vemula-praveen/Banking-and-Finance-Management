@@ -22,7 +22,7 @@ CREATE Table Branch (
     
 CREATE Table Employee (
 	EmployeeID INT NOT NULL AUTO_INCREMENT,
-    Name varchar(20) NOT NULL,
+    Name varchar(30) NOT NULL,
     Position varchar(200) NOT NULL,
     BranchID INT NOT NULL,
     isManager boolean default false,
