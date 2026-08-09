@@ -16,7 +16,8 @@ CREATE Table Branch (
 	BranchID INT NOT NULL AUTO_INCREMENT,
     City varchar(20) NOT NULL,
     Address varchar(200) NOT NULL,
-	primary key(BranchID)
+	primary key(BranchID),
+ Number INT NOT NULL 
 );
 
     
